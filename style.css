@@ -33,12 +33,11 @@ body {
 
 /* ---------- Views ---------- */
 .view {
-  display: none;
+  display: block;
   height: 100%;
   overflow-y: auto;
   padding: 24px 22px 130px;
 }
-.view.active { display: block; }
 
 .title { margin-bottom: 18px; }
 
@@ -214,6 +213,7 @@ body {
   display: grid;
   place-items: center;
   cursor: pointer;
+  text-decoration: none;
   transition: transform .1s, box-shadow .2s;
 }
 .nav-btn svg { width: 34px; height: 34px; fill: var(--icon); stroke: var(--icon); }
